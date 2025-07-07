@@ -60,7 +60,7 @@ export default function EmailSignupForm() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="flex-1 px-6 py-4 text-gray-900 placeholder-gray-500 border border-white/30 focus:ring-4 focus:ring-white/25 focus:border-white/50"
+            className="flex-1 px-6 py-4 text-gray-900 placeholder-gray-500 border border-travel-coral focus:ring-4 focus:ring-white/25 focus:border-travel-coral"
           />
           <Button 
             type="submit"
