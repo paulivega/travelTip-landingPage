@@ -14,8 +14,6 @@ export default function NewsletterSection() {
       </div>
       
       <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        
-        
         <EmailSignupForm />
         
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
