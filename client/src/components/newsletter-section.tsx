@@ -14,18 +14,7 @@ export default function NewsletterSection() {
       </div>
       
       <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-8">
-          <div className="bg-white/20 backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-            <Mail className="h-10 w-10 text-white" />
-          </div>
-          <h2 className="text-4xl font-bold text-white mb-4">
-            ¡Mantente al día con TravelTip!
-          </h2>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Sé el primero en conocer nuestras novedades, funciones exclusivas y consejos de viaje 
-            personalizados. Únete a nuestra comunidad de viajeros inteligentes.
-          </p>
-        </div>
+        
         
         <EmailSignupForm />
         
