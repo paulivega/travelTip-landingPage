@@ -15,38 +15,6 @@ export default function NewsletterSection() {
       
       <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <EmailSignupForm />
-        
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="text-center">
-            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6">
-              <Send className="h-8 w-8 text-white mx-auto mb-4" />
-              <h3 className="text-white font-semibold mb-2">Actualizaciones exclusivas</h3>
-              <p className="text-white/80 text-sm">
-                Recibe noticias sobre nuevas funciones antes que nadie
-              </p>
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6">
-              <Mail className="h-8 w-8 text-white mx-auto mb-4" />
-              <h3 className="text-white font-semibold mb-2">Consejos de viaje</h3>
-              <p className="text-white/80 text-sm">
-                Tips personalizados para hacer tus viajes inolvidables
-              </p>
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6">
-              <div className="w-8 h-8 bg-white/30 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">AI</span>
-              </div>
-              <h3 className="text-white font-semibold mb-2">Contenido IA</h3>
-              <p className="text-white/80 text-sm">
-                Descubre cómo la IA está revolucionando los viajes
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
