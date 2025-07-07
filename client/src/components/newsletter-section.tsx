@@ -13,7 +13,7 @@ export default function NewsletterSection() {
         </div>
       </div>
       
-      <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8">
           <div className="bg-white/20 backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
             <Mail className="h-10 w-10 text-white" />
