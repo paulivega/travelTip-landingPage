@@ -1,4 +1,4 @@
-import logoPath from "@assets/Logo TravelTip XL_1751729176832.png";
+import logoPath from "@assets/Logo Form_1751730326038.png";
 
 interface LogoProps {
   className?: string;

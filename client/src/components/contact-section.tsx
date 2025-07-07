@@ -46,10 +46,15 @@ export default function ContactSection() {
             <p className="text-travel-gray mb-6">
               Ayúdanos a crear la mejor experiencia de viaje respondiendo nuestra encuesta.
             </p>
-            <button className="inline-flex items-center text-travel-coral font-semibold hover:text-travel-orange transition-colors">
+            <a 
+              href="https://forms.gle/3xoMcvpVkhSvSdpz7" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-travel-coral font-semibold hover:text-travel-orange transition-colors"
+            >
               <BarChart3 className="mr-2 h-5 w-5" />
               Participar en la encuesta
-            </button>
+            </a>
           </div>
         </div>
         

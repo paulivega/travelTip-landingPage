@@ -51,11 +51,21 @@ export default function HeroSection() {
         </div>
         
         <div className="mt-8 bg-white/10 backdrop-blur-sm rounded-xl p-6 max-w-2xl mx-auto">
-          <p className="text-lg">
+          <p className="text-lg mb-4">
             <BarChart3 className="inline mr-2 h-5 w-5 text-travel-coral" />
             Acabamos de lanzar una encuesta para conocer mejor tus necesidades de viaje. 
             ¡Únete a nuestra comunidad para recibir actualizaciones!
           </p>
+          <Button 
+            asChild
+            variant="outline"
+            className="bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30 transition-all"
+          >
+            <a href="https://forms.gle/3xoMcvpVkhSvSdpz7" target="_blank" rel="noopener noreferrer">
+              <BarChart3 className="mr-2 h-5 w-5" />
+              Participar en la encuesta
+            </a>
+          </Button>
         </div>
       </div>
     </section>

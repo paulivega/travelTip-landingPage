@@ -4,6 +4,7 @@ import HowItWorksSection from "@/components/how-it-works-section";
 import FeaturesSection from "@/components/features-section";
 import DestinationsGallery from "@/components/destinations-gallery";
 import TestimonialsSection from "@/components/testimonials-section";
+import NewsletterSection from "@/components/newsletter-section";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <FeaturesSection />
       <DestinationsGallery />
       <TestimonialsSection />
+      <NewsletterSection />
       <ContactSection />
       <Footer />
     </div>

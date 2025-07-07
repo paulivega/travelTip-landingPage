@@ -14,7 +14,7 @@ export default function FeaturesSection() {
       bgColor: "bg-travel-turquoise/10",
       iconColor: "bg-travel-turquoise",
       checkColor: "text-travel-turquoise",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+      image: null
     },
     {
       icon: Heart,
@@ -44,8 +44,8 @@ export default function FeaturesSection() {
         
         <div className="space-y-24">
           {features.map((feature, index) => (
-            <div key={index} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>
-              <div className={index % 2 === 1 ? 'lg:col-start-2' : ''}>
+            <div key={index} className={`grid grid-cols-1 ${feature.image ? 'lg:grid-cols-2' : ''} gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>
+              <div className={index % 2 === 1 && feature.image ? 'lg:col-start-2' : ''}>
                 <div className={`${feature.bgColor} rounded-2xl p-8`}>
                   <div className="flex items-center mb-6">
                     <div className={`${feature.iconColor} text-white w-12 h-12 rounded-lg flex items-center justify-center mr-4`}>
@@ -66,13 +66,15 @@ export default function FeaturesSection() {
                   </ul>
                 </div>
               </div>
-              <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
-                <img 
-                  src={feature.image} 
-                  alt={feature.title}
-                  className="rounded-2xl shadow-lg w-full h-auto"
-                />
-              </div>
+              {feature.image && (
+                <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
+                  <img 
+                    src={feature.image} 
+                    alt={feature.title}
+                    className="rounded-2xl shadow-lg w-full h-auto"
+                  />
+                </div>
+              )}
             </div>
           ))}
         </div>
