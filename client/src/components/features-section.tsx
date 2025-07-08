@@ -1,4 +1,5 @@
 import { Brain, Heart, Check } from "lucide-react";
+import fondoTravelTip from "@assets/fondo_traveltip_1751935605931.jpg";
 
 export default function FeaturesSection() {
   const features = [
@@ -28,7 +29,7 @@ export default function FeaturesSection() {
       bgColor: "bg-travel-coral/10",
       iconColor: "bg-travel-coral",
       checkColor: "text-travel-coral",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+      image: fondoTravelTip
     }
   ];
 
