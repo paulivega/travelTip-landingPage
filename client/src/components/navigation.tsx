@@ -51,6 +51,7 @@ export default function Navigation() {
             <Button 
               onClick={scrollToEmailSignup}
               className="bg-travel-coral text-white hover:bg-travel-coral/90"
+              style={{display: 'none'}}
             >
               Mantente informado
             </Button>
@@ -91,6 +92,7 @@ export default function Navigation() {
             <Button 
               onClick={scrollToEmailSignup}
               className="w-full bg-travel-coral text-white hover:bg-travel-coral/90"
+              style={{display: 'none'}}
             >
               Mantente informado
             </Button>

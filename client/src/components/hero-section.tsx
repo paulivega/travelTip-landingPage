@@ -33,6 +33,7 @@ export default function HeroSection() {
           <Button 
             onClick={scrollToEmailSignup}
             className="bg-travel-coral text-white px-8 py-4 text-lg font-semibold hover:bg-travel-coral/90 transition-all transform hover:scale-105 shadow-lg"
+            style={{display: 'none'}}
           >
             <Mail className="mr-2 h-5 w-5" />
             Mantente informado
