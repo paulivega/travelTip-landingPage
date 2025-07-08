@@ -1,4 +1,4 @@
-import termasChile from "@assets/termas-chile.svg";
+import chileImage from "@assets/chile.jpeg";
 import guatemalaImage from "@assets/traveltipGuatemala_1751986569643.jpeg";
 
 export default function DestinationsGallery() {
@@ -26,7 +26,7 @@ export default function DestinationsGallery() {
     {
       name: "Chile",
       country: "Chile",
-      image: termasChile
+      image: chileImage
     },
     {
       name: "Guatemala",
