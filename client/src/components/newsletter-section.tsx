@@ -3,7 +3,7 @@ import { Mail, Send } from "lucide-react";
 
 export default function NewsletterSection() {
   return (
-    <section id="email-signup" className="py-16 bg-gradient-to-br from-travel-turquoise to-travel-blue relative overflow-hidden">
+    <section id="email-signup" className="py-16 bg-gradient-to-br from-travel-turquoise to-travel-blue relative overflow-hidden" style={{display: 'none'}}>
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-white/10 bg-opacity-10" 
