@@ -1,0 +1,96 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo de cielo -->
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente para las montañas -->
+    <linearGradient id="mountain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2F4F4F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#708090;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente para el agua termal -->
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5F9EA0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente para el bosque -->
+    <linearGradient id="forest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cielo -->
+  <rect width="600" height="400" fill="url(#sky)"/>
+  
+  <!-- Montañas de fondo -->
+  <polygon points="0,150 100,80 200,100 300,60 400,90 500,70 600,85 600,400 0,400" fill="url(#mountain)"/>
+  
+  <!-- Bosque -->
+  <polygon points="0,200 50,180 100,190 150,170 200,185 250,175 300,180 350,170 400,175 450,165 500,170 550,160 600,165 600,400 0,400" fill="url(#forest)"/>
+  
+  <!-- Árboles individuales -->
+  <polygon points="80,180 85,160 90,180" fill="#2F4F4F"/>
+  <polygon points="180,170 185,150 190,170" fill="#2F4F4F"/>
+  <polygon points="280,175 285,155 290,175" fill="#2F4F4F"/>
+  <polygon points="380,170 385,150 390,170" fill="#2F4F4F"/>
+  <polygon points="480,165 485,145 490,165" fill="#2F4F4F"/>
+  
+  <!-- Piscinas termales -->
+  <!-- Piscina principal -->
+  <ellipse cx="300" cy="280" rx="80" ry="40" fill="url(#water)" opacity="0.8"/>
+  
+  <!-- Piscinas secundarias -->
+  <ellipse cx="150" cy="300" rx="50" ry="25" fill="url(#water)" opacity="0.7"/>
+  <ellipse cx="450" cy="290" rx="60" ry="30" fill="url(#water)" opacity="0.7"/>
+  
+  <!-- Vapor de las termas -->
+  <ellipse cx="300" cy="270" rx="10" ry="5" fill="white" opacity="0.6"/>
+  <ellipse cx="310" cy="265" rx="8" ry="4" fill="white" opacity="0.5"/>
+  <ellipse cx="290" cy="275" rx="6" ry="3" fill="white" opacity="0.4"/>
+  
+  <ellipse cx="150" cy="290" rx="8" ry="4" fill="white" opacity="0.5"/>
+  <ellipse cx="160" cy="285" rx="6" ry="3" fill="white" opacity="0.4"/>
+  
+  <ellipse cx="450" cy="280" rx="10" ry="5" fill="white" opacity="0.6"/>
+  <ellipse cx="460" cy="275" rx="8" ry="4" fill="white" opacity="0.5"/>
+  
+  <!-- Pasarelas de madera -->
+  <rect x="200" y="285" width="200" height="8" fill="#8B4513" opacity="0.8"/>
+  <rect x="100" y="305" width="100" height="6" fill="#8B4513" opacity="0.8"/>
+  <rect x="400" y="295" width="100" height="6" fill="#8B4513" opacity="0.8"/>
+  
+  <!-- Detalles de las pasarelas -->
+  <rect x="210" y="287" width="4" height="4" fill="#654321"/>
+  <rect x="230" y="287" width="4" height="4" fill="#654321"/>
+  <rect x="250" y="287" width="4" height="4" fill="#654321"/>
+  <rect x="270" y="287" width="4" height="4" fill="#654321"/>
+  <rect x="290" y="287" width="4" height="4" fill="#654321"/>
+  <rect x="310" y="287" width="4" height="4" fill="#654321"/>
+  <rect x="330" y="287" width="4" height="4" fill="#654321"/>
+  <rect x="350" y="287" width="4" height="4" fill="#654321"/>
+  <rect x="370" y="287" width="4" height="4" fill="#654321"/>
+  <rect x="390" y="287" width="4" height="4" fill="#654321"/>
+  
+  <!-- Rocas alrededor de las piscinas -->
+  <ellipse cx="220" cy="320" rx="15" ry="8" fill="#696969"/>
+  <ellipse cx="380" cy="330" rx="18" ry="10" fill="#696969"/>
+  <ellipse cx="100" cy="340" rx="12" ry="6" fill="#696969"/>
+  <ellipse cx="500" cy="320" rx="20" ry="12" fill="#696969"/>
+  
+  <!-- Vegetación alrededor -->
+  <circle cx="180" cy="340" r="8" fill="#228B22"/>
+  <circle cx="420" cy="340" r="10" fill="#228B22"/>
+  <circle cx="520" cy="340" r="6" fill="#228B22"/>
+  <circle cx="80" cy="350" r="7" fill="#228B22"/>
+  
+  <!-- Reflexos en el agua -->
+  <ellipse cx="290" cy="275" rx="15" ry="3" fill="white" opacity="0.3"/>
+  <ellipse cx="140" cy="295" rx="12" ry="2" fill="white" opacity="0.3"/>
+  <ellipse cx="440" cy="285" rx="14" ry="3" fill="white" opacity="0.3"/>
+</svg>
