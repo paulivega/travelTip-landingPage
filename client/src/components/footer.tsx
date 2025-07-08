@@ -64,11 +64,7 @@ export default function Footer() {
                   Contacto
                 </button>
               </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Privacidad
-                </a>
-              </li>
+              
             </ul>
           </div>
           
