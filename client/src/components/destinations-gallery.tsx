@@ -1,5 +1,5 @@
 import termasChile from "@assets/termas-chile.svg";
-import guatemalaTemple from "@assets/guatemala-temple.svg";
+import guatemalaImage from "@assets/traveltipGuatemala_1751986569643.jpeg";
 
 export default function DestinationsGallery() {
   const destinations = [
@@ -31,7 +31,7 @@ export default function DestinationsGallery() {
     {
       name: "Guatemala",
       country: "Guatemala",
-      image: guatemalaTemple
+      image: guatemalaImage
     }
   ];
 
