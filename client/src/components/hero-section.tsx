@@ -19,8 +19,8 @@ export default function HeroSection() {
       >
         <div className="absolute inset-0 from-travel-blue/80 to-travel-turquoise/70 bg-[#00000045]"></div>
       </div>
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white pt-20 sm:pt-8">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           Planifica tu viaje perfecto<br />
           <span className="text-travel-coral">con Inteligencia Artificial</span>
         </h1>
